@@ -1,0 +1,105 @@
+*{
+    font-family: 'Noto Sans', sans-serif;
+}
+.calendar-outer {
+    width: 400px;
+    height: 100%;
+    background-color: #12121f;
+    color: #eee;
+    margin: 10%auto 2%;
+    padding: 0;
+    
+  }
+  .calendar {
+    width: 400px;
+    height: 50%;
+    background-color: #e8f2ea3e;
+    box-shadow: 0 0.5rem 3rem rgba(0,0,0,0.4);
+    margin: auto;
+    align-items: center;
+
+  }
+  #highlights {
+    text-align: center;
+    list-style-type: none;
+  }
+  #highlights li {
+    padding: 5px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  .calendar-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c6dac744;
+    color: rgb(241, 129, 129);    
+  }
+  
+  .current-month {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  
+  .nav-btn {
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    color: rgb(249, 248, 248);
+    background-color:#c6dac744;
+
+  }
+  
+  .weekdays-bar,
+  .calendarbody {
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline: 60px;
+  }
+  
+  .weekdays-bar {
+    padding-top: 12px;
+  }
+  
+  .calendar-days {
+    padding-bottom: 12px;
+  }
+  
+  .weekday,
+  [class$="-day"] {
+    width: 40px;
+    height: 40px;
+    color: #000;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  
+  .weekday {
+    color: #fff;
+    font-weight: 700;
+  }
+  
+
+  .padding-day {
+    color: #a5a5a5;
+    user-select: none;
+  }
+  .nav-btn:hover {
+    background-color: rgba(3, 117, 165, 0.53);
+    border:#a9a9a9;
+    cursor: pointer;
+  }
+  .month-day {
+    border: border-box;
+  }
+  .month-day:hover{
+      background-color: black;
+      color: #a9a9a9;
+      cursor:pointer;
+  }
